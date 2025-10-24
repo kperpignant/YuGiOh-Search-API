@@ -23,3 +23,4 @@ function getCard() {
         }) //then start using the data
         .catch(error => console.error(error)); //catch errors instead of crashing or something
 }
+//instantiate stars based on the level of the monster (if a monster)

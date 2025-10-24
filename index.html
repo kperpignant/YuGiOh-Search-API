@@ -12,23 +12,26 @@
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
+		<main>
+			<fieldset>
+				<legend>Search Criteria</legend>
+				<input id="wildCard" type="text" name="userInput" value="" placeholder="Exact Card Name">
 
-		<fieldset>
-			<legend>Search Criteria</legend>
-			<input id="wildCard" type="text" name="userInput" value="" placeholder="Exact Card Name">
-
-			<button type="submit" name="button">Submit Request</button>
-		</fieldset>
-		
-		<h5>Card Info?</h5>
-		<h6 id="output">
-			<p id="cardName">Name</p>
-			<p id="cardAttribute">Attribute</p> <img src="">
-			<p id="cardLevel">Level</p> <img src="">
-			<p id="cardRace">Race</p>
-			<p id="cardType">Type</p>
-			<p id="cardDesc">Description</p>
-		</h6>
+				<button type="submit" name="button">Submit Request</button>
+			</fieldset>
+			<section class="mainField">
+				<h5>Card Info</h5>
+				<h6 id="output" class="output">
+					<p id="cardName">Name</p>
+					<p id="cardAttribute">Attribute</p> <img src="">
+					<p id="cardLevel">Level</p> <img src="">
+					<p id="cardRace">Race</p>
+					<p id="cardType">Type</p>
+					<p id="cardDesc">Description</p>
+				</h6>
+			</section>
+			
+		</main>
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
