@@ -1,5 +1,7 @@
 # 📊 Project: Simple Yu-Gi-Oh Card Database Search
 
+![Alt text](Screenshot.png "screenshot")
+
 ### Enter exact card name and get the card stats back
 
 #### Tech used
